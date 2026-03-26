@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bevásárlólista</title>
+</head>
+<body>
+<div id="myDIV" class="header">
+    <h2 style="margin:5px">🛒 Bevásárlólista</h2>
+    <input type="text" id="itemInput" placeholder="Termék neve...">
+    <input type="number" id="priceInput" placeholder="Ár (Ft)" min="0">
+    <span onclick="newElement()" class="addBtn">Hozzáad</span>
+    <select id="categorySelect">
+        <option value="catFood">Élelmiszer</option>
+        <option value="catDrinks">Italok</option>
+        <option value="catHousehold">Háztartás</option>
+        <option value="catHygiene">Higiénia</option>
+        <option value="catOther">Egyéb</option>
+    </select>
+</div>
+<div class="total-container">
+    <span>Összesen: <strong id="totalPrice">0</strong> Ft</span>
+</div>
+<div class="app-container">
+    <ul>
+        <li></li>
+        <li id="catFood">🍞 Élelmiszer</li>
+        <li id="catDrinks">🥤 Italok</li>
+        <li id="catHousehold">🧹 Háztartás</li>
+        <li id="catHygiene">🧴 Higiénia</li>
+        <li id="catOther">📦 Egyéb</li>
+    </ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
