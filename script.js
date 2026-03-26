@@ -78,7 +78,7 @@ function newElement() {
         this.parentElement.style.display = "none";
     };
 }
-// Kategóriák lenyitása kattintásra 
+// Kategóriák lenyitása
 var categories = document.querySelectorAll("ul > li");
 for (let i = 0; i < categories.length; i++) {
     if (categories[i].innerText.trim() !== "") {
