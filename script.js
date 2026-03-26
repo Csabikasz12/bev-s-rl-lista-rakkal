@@ -46,7 +46,7 @@ function newElement() {
     li.setAttribute("data-price", price);
     var itemText = document.createTextNode(itemValue);
     li.appendChild(itemText);
-    // Ár megjelenítése
+    // Ár megjel.
     if (price > 0) {
         var priceSpan = document.createElement("span");
         priceSpan.className = "item-price";
