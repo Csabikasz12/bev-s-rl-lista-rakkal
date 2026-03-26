@@ -64,7 +64,7 @@ function newElement() {
     // Input mezők ürítése
     document.getElementById("itemInput").value = "";
     document.getElementById("priceInput").value = "";
-    // Close gomb hozzáadása
+    // Close gomb 
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
