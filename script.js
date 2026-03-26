@@ -38,7 +38,7 @@ function newElement() {
     var priceValue = document.getElementById("priceInput").value;
     var selectedCategoryId = document.getElementById("categorySelect").value;
     if (itemValue === '') {
-        alert("Add meg a termék nevét!");
+        alert("Addja meg a termék nevét!");
         return;
     }
     var price = priceValue ? parseInt(priceValue) : 0;
